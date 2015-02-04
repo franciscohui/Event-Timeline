@@ -1,0 +1,21 @@
+<%- width = 100 %>
+
+<div id="timeline" style="width: <%= 30 * width + 300 %>px">
+	<div class="events">
+	<% data.events.work.each do |w| %>
+	  <div class="event" style="left: <%= w.age * width %>px"><%= w.title %></div>
+	<% end %>
+	</div>
+
+	<div class="locations">
+	<% data.events.locations.each do |l| %>
+	  <div class="location" style="left: <%= l.age * width %>px; width: <%= l.years * 100 %>px"><%= l.name %></div>
+	<% end %>
+	</div>
+
+	<ul style="width: <%= 30 * width + 300%>px">
+	<%- (1..30).each do |age| %>
+	  <li><%= age %></li>
+	<% end %>
+	</ul>
+</div>

@@ -1,0 +1,24 @@
+{
+	"work": [
+	  {
+	    "title": "Event at 10",
+	    "age": 10
+	  },
+	  {
+	    "title": "Event at 20",
+	    "age": 20
+	  },
+	  {
+	    "title": "Event at 27",
+	    "age": 27
+	  }
+	],
+	"locations": [
+	  {
+	  	"name": "Lived in Atlantis",
+	  	"age": 4,
+	  	"years": 6
+	  }
+	]
+}
+

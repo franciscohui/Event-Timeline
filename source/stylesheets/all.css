@@ -1,0 +1,51 @@
+body{
+  font-family: sans-serif;
+  overflow: scroll;
+}
+div{
+  border: 1px dotted silver;
+}
+ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+li{
+  display: inline-block;
+  background-color: silver;
+  width: 100px;
+  height: 100px;
+}
+.events{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: silver;
+  z-index: 100;
+}
+.event{
+  position: absolute;
+  display: inline-block;
+  background-color: #53D331;
+  height: 15px;
+  width: 350px;
+  padding: 10px 5px;
+}
+
+.locations{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: silver;
+  z-index: 100;
+}
+.location{
+  position: absolute;
+  display: inline-block;
+  background-color: #ccccff;
+  height: 15px;
+  width: 350px;
+  padding: 10px 5px;
+}
